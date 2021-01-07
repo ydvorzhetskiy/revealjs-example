@@ -2,10 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RevealJS pure HTML example</title>
+    <!-- TODO: Вставьте имя презентации -->
+    <title>TODO</title>
+
+    <!-- TODO: Вставьте описание презентации -->
+    <meta name="description" content="TODO">
+    <!-- TODO: Вставьте автора  -->
+    <meta name="author" content="TODO">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reveal styles -->
+    <link rel="stylesheet" href="https://unpkg.com/browse/reveal.js@4.1.0/dist/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.1.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.1.0/dist/theme/black.css">
+
+    <!-- highlight style -->
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.1.0/plugin/highlight/monokai.css">
 </head>
-<body>
-<h1>Hello world</h1>
-<p>Here will be RevealJS example</p>
+<body class="reveal">
+<div class="slides">
+
+    <section>
+        <h1>Title slide</h1>
+    </section>
+
+    <section>
+        <section>
+            Introduction 1
+        </section>
+
+        <section>
+            Introduction 2
+        </section>
+    </section>
+
+    <section>
+        <section>
+            Other settings
+        </section>
+        <section>
+            Other 2
+        </section>
+    </section>
+
+</div>
+<!-- Reveal JS -->
+<script src="https://unpkg.com/reveal.js@4.1.0/dist/reveal.js"></script>
+<script src="https://unpkg.com/reveal.js@4.1.0/plugin/highlight/highlight.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        hash: true,
+        plugins: [RevealHighlight]
+    });
+</script>
 </body>
 </html>
